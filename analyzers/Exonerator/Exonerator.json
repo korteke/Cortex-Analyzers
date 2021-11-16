@@ -1,0 +1,23 @@
+{
+  "name": "Exonerator",
+  "author": "Keijo Korte - @korteke",
+  "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+  "license": "AGPL-V3",
+  "version": "1.0",
+  "baseConfig": "Exonerator",
+  "config": {
+    "check_tlp": false,
+    "max_tlp": 3
+  },
+  "description": "Check if IP-address is a Tor exit node",
+  "dataTypeList": ["ip"],
+  "command": "Exonerator/Exonerator.py",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "service_homepage": "https://metrics.torproject.org/exonerator.html",
+  "service_logo": {
+    "path": "assets/tor-logo.png",
+    "caption": "Tor logo"
+  }
+}
